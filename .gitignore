@@ -12,6 +12,8 @@
 *.iws
 *.iml
 *.ipr
+out/*
+src/META-INF/*
 
 ### NetBeans ###
 /nbproject/private/

@@ -22,7 +22,7 @@ public class FofaBean {
     }
     public String getParam(String page) {
         String fields = "host,title,ip,domain,port,protocol,server";
-        String queryUrl = "https://fofa.so/api/v1/search/all";
+        String queryUrl = "https://fofa.info/api/v1/search/all";
         if(page != null) {
             return queryUrl + "?email=" + email
                     + "&key=" + key
